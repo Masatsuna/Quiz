@@ -13,6 +13,7 @@ public class StartScreen extends AppCompatActivity {
         setContentView(R.layout.activity_start_screen);
     }
 
+    //スタートボタンを押すとQuizScreenに画面遷移する
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.startButton:
